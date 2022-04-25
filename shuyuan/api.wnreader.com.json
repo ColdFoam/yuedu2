@@ -1,0 +1,263 @@
+{
+  "bookSourceGroup": "",
+  "bookSourceName": "免费小说大全",
+  "bookSourceUrl": "https://api.wnreader.com",
+  "enable": true,
+  "loginCheckJs": "",
+  "loginUi": "",
+  "loginUrl": "",
+  "ruleBookAuthor": "$.author",
+  "ruleBookContent": "$.chapter.body",
+  "ruleBookInfoInit": "",
+  "ruleBookKind": "$.tags",
+  "ruleBookLastChapter": "$.lastChapter",
+  "ruleBookName": "$.title",
+  "ruleBookUrlPattern": "",
+  "ruleChapterList": "$.mixToc.chapters[*]",
+  "ruleChapterName": "$.title",
+  "ruleChapterUrl": "https://api.wnreader.com/mulu/{$._id}?view=chapters&https=1",
+  "ruleContentUrl": "$.link",
+  "ruleCoverUrl": "$.cover",
+  "ruleFindAuthor": "$.author",
+  "ruleFindCoverUrl": "$.cover",
+  "ruleFindIntroduce": "$.shortIntro",
+  "ruleFindKind": "$.tags",
+  "ruleFindLastChapter": "",
+  "ruleFindList": "$.books[*]",
+  "ruleFindName": "$.title",
+  "ruleFindNoteUrl": "https://api.wnreader.com/intro/{{$._id}}",
+  "ruleFindUrl": "♂排行榜::
+最热榜::/newtop/list?topid=hot&gender=0
+好评榜::/newtop/list?topid=reputation&gender=0
+潜力榜::/newtop/list?topid=potential&gender=0
+完结榜::/newtop/list?topid=over&gender=0
+新书榜::/newtop/list?topid=new&gender=0
+♀排行榜::
+最热榜::/newtop/list?topid=hot&gender=1
+好评榜::/newtop/list?topid=reputation&gender=1
+潜力榜::/newtop/list?topid=potential&gender=1
+完结榜::/newtop/list?topid=over&gender=1
+新书榜::/newtop/list?topid=new&gender=1
+♂类别::
+玄幻::/category/list?gender=male&type=hot&major=玄幻&minor=&start={{(page-1)*20}}&limit=20
+奇幻::/category/list?gender=male&type=hot&major=奇幻&minor=&start={{(page-1)*20}}&limit=20
+武侠::/category/list?gender=male&type=hot&major=武侠&minor=&start={{(page-1)*20}}&limit=20
+仙侠::/category/list?gender=male&type=hot&major=仙侠&minor=&start={{(page-1)*20}}&limit=20
+都市::/category/list?gender=male&type=hot&major=都市&minor=&start={{(page-1)*20}}&limit=20
+职场::/category/list?gender=male&type=hot&major=职场&minor=&start={{(page-1)*20}}&limit=20
+历史::/category/list?gender=male&type=hot&major=历史&minor=&start={{(page-1)*20}}&limit=20
+军事::/category/list?gender=male&type=hot&major=军事&minor=&start={{(page-1)*20}}&limit=20
+游戏::/category/list?gender=male&type=hot&major=游戏&minor=&start={{(page-1)*20}}&limit=20
+竞技::/category/list?gender=male&type=hot&major=竞技&minor=&start={{(page-1)*20}}&limit=20
+科幻::/category/list?gender=male&type=hot&major=科幻&minor=&start={{(page-1)*20}}&limit=20
+灵异::/category/list?gender=male&type=hot&major=灵异&minor=&start={{(page-1)*20}}&limit=20
+同人::/category/list?gender=male&type=hot&major=同人&minor=&start={{(page-1)*20}}&limit=20
+轻小说::/category/list?gender=male&type=hot&major=轻小说&minor=&start={{(page-1)*20}}&limit=20
+其他::/category/list?gender=male&type=hot&major=其他&minor=&start={{(page-1)*20}}&limit=20
+♂人设::
+兵王::booktag/list?gender=0&type=hot&tags=兵王&start={{(page-1)*20}}&limit=20
+神医::/booktag/list?gender=0&type=hot&tags=神医&minor=&start={{(page-1)*20}}&limit=20
+女婿::/booktag/list?gender=0&type=hot&tags=女婿&minor=&start={{(page-1)*20}}&limit=20
+神豪::/booktag/list?gender=0&type=hot&tags=神豪&minor=&start={{(page-1)*20}}&limit=20
+废材::/booktag/list?gender=0&type=hot&tags=废材&minor=&start={{(page-1)*20}}&limit=20
+奶爸::/booktag/list?gender=0&type=hot&tags=奶爸&minor=&start={{(page-1)*20}}&limit=20
+火影::/booktag/list?gender=0&type=hot&tags=火影&minor=&start={{(page-1)*20}}&limit=20
+武神::/booktag/list?gender=0&type=hot&tags=武神&minor=&start={{(page-1)*20}}&limit=20
+娱乐明星::/booktag/list?gender=0&type=hot&tags=娱乐明星&minor=&start={{(page-1)*20}}&limit=20
+保安::/booktag/list?gender=0&type=hot&tags=保安&minor=&start={{(page-1)*20}}&limit=20
+校花::/booktag/list?gender=0&type=hot&tags=校花&minor=&start={{(page-1)*20}}&limit=20
+刺客::/booktag/list?gender=0&type=hot&tags=刺客&minor=&start={{(page-1)*20}}&limit=20
+保镖::/booktag/list?gender=0&type=hot&tags=保镖&minor=&start={{(page-1)*20}}&limit=20
+白领::/booktag/list?gender=0&type=hot&tags=白领&minor=&start={{(page-1)*20}}&limit=20
+御姐::/booktag/list?gender=0&type=hot&tags=御姐&minor=&start={{(page-1)*20}}&limit=20
+农民::/booktag/list?gender=0&type=hot&tags=农民&minor=&start={{(page-1)*20}}&limit=20
+帝王::/booktag/list?gender=0&type=hot&tags=帝王&minor=&start={{(page-1)*20}}&limit=20
+道士::/booktag/list?gender=0&type=hot&tags=道士&minor=&start={{(page-1)*20}}&limit=20
+战神::/booktag/list?gender=0&type=hot&tags=战神&minor=&start={{(page-1)*20}}&limit=20
+宅男::/booktag/list?gender=0&type=hot&tags=宅男&minor=&start={{(page-1)*20}}&limit=20
+姑爷::/booktag/list?gender=0&type=hot&tags=姑爷&minor=&start={{(page-1)*20}}&limit=20
+剑客::/booktag/list?gender=0&type=hot&tags=剑客&minor=&start={{(page-1)*20}}&limit=20
+仙尊::/booktag/list?gender=0&type=hot&tags=仙尊&minor=&start={{(page-1)*20}}&limit=20
+海贼::/booktag/list?gender=0&type=hot&tags=海贼&minor=&start={{(page-1)*20}}&limit=20
+同人::/booktag/list?gender=0&type=hot&tags=同人&minor=&start={{(page-1)*20}}&limit=20
+教师::/booktag/list?gender=0&type=hot&tags=教师&minor=&start={{(page-1)*20}}&limit=20
+特种兵::/booktag/list?gender=0&type=hot&tags=特种兵&minor=&start={{(page-1)*20}}&limit=20
+金庸::/booktag/list?gender=0&type=hot&tags=金庸&minor=&start={{(page-1)*20}}&limit=20
+黑客::/booktag/list?gender=0&type=hot&tags=黑客&minor=&start={{(page-1)*20}}&limit=20
+杀手::/booktag/list?gender=0&type=hot&tags=杀手&minor=&start={{(page-1)*20}}&limit=20
+♂情感::
+热血::/booktag/list?gender=0&type=hot&tags=热血&minor=&start={{(page-1)*20}}&limit=20
+言情::/booktag/list?gender=0&type=hot&tags=言情&minor=&start={{(page-1)*20}}&limit=20
+现言::/booktag/list?gender=0&type=hot&tags=现言&minor=&start={{(page-1)*20}}&limit=20
+侠义::/booktag/list?gender=0&type=hot&tags=侠义&minor=&start={{(page-1)*20}}&limit=20
+搞笑::/booktag/list?gender=0&type=hot&tags=搞笑&minor=&start={{(page-1)*20}}&limit=20
+青春::/booktag/list?gender=0&type=hot&tags=青春&minor=&start={{(page-1)*20}}&limit=20
+爽文::/booktag/list?gender=0&type=hot&tags=爽文&minor=&start={{(page-1)*20}}&limit=20
+励志::/booktag/list?gender=0&type=hot&tags=励志&minor=&start={{(page-1)*20}}&limit=20
+懦弱::/booktag/list?gender=0&type=hot&tags=懦弱&minor=&start={{(page-1)*20}}&limit=20
+纨绔::/booktag/list?gender=0&type=hot&tags=纨绔&minor=&start={{(page-1)*20}}&limit=20
+♂时空::
+玄幻::/booktag/list?gender=0&type=hot&tags=玄幻&minor=&start={{(page-1)*20}}&limit=20
+武侠::/booktag/list?gender=0&type=hot&tags=武侠&minor=&start={{(page-1)*20}}&limit=20
+仙侠::/booktag/list?gender=0&type=hot&tags=仙侠&minor=&start={{(page-1)*20}}&limit=20
+恐怖::/booktag/list?gender=0&type=hot&tags=恐怖&minor=&start={{(page-1)*20}}&limit=20
+奇幻::/booktag/list?gender=0&type=hot&tags=奇幻&minor=&start={{(page-1)*20}}&limit=20
+洪荒::/booktag/list?gender=0&type=hot&tags=洪荒&minor=&start={{(page-1)*20}}&limit=20
+异界::/booktag/list?gender=0&type=hot&tags=异界&minor=&start={{(page-1)*20}}&limit=20
+异世::/booktag/list?gender=0&type=hot&tags=异世&minor=&start={{(page-1)*20}}&limit=20
+都市::/booktag/list?gender=0&type=hot&tags=都市&minor=&start={{(page-1)*20}}&limit=20
+古代::/booktag/list?gender=0&type=hot&tags=古代&minor=&start={{(page-1)*20}}&limit=20
+科幻::/booktag/list?gender=0&type=hot&tags=科幻&minor=&start={{(page-1)*20}}&limit=20
+网游::/booktag/list?gender=0&type=hot&tags=网游&minor=&start={{(page-1)*20}}&limit=20
+架空::/booktag/list?gender=0&type=hot&tags=架空&minor=&start={{(page-1)*20}}&limit=20
+重生::/booktag/list?gender=0&type=hot&tags=重生&minor=&start={{(page-1)*20}}&limit=20
+未来::/booktag/list?gender=0&type=hot&tags=未来&minor=&start={{(page-1)*20}}&limit=20
+穿越::/booktag/list?gender=0&type=hot&tags=穿越&minor=&start={{(page-1)*20}}&limit=20
+历史::/booktag/list?gender=0&type=hot&tags=历史&minor=&start={{(page-1)*20}}&limit=20
+快穿::/booktag/list?gender=0&type=hot&tags=快穿&minor=&start={{(page-1)*20}}&limit=20
+末世::/booktag/list?gender=0&type=hot&tags=末世&minor=&start={{(page-1)*20}}&limit=20
+位面::/booktag/list?gender=0&type=hot&tags=位面&minor=&start={{(page-1)*20}}&limit=20
+♂剧情::
+变身::/booktag/list?gender=0&type=hot&tags=变身&minor=&start={{(page-1)*20}}&limit=20
+悬疑::/booktag/list?gender=0&type=hot&tags=悬疑&minor=&start={{(page-1)*20}}&limit=20
+系统::/booktag/list?gender=0&type=hot&tags=系统&minor=&start={{(page-1)*20}}&limit=20
+推理::/booktag/list?gender=0&type=hot&tags=推理&minor=&start={{(page-1)*20}}&limit=20
+犯罪::/booktag/list?gender=0&type=hot&tags=犯罪&minor=&start={{(page-1)*20}}&limit=20
+种田::/booktag/list?gender=0&type=hot&tags=种田&minor=&start={{(page-1)*20}}&limit=20
+惊悚::/booktag/list?gender=0&type=hot&tags=惊悚&minor=&start={{(page-1)*20}}&limit=20
+竞技::/booktag/list?gender=0&type=hot&tags=竞技&minor=&start={{(page-1)*20}}&limit=20
+轻小说::/booktag/list?gender=0&type=hot&tags=轻小说&minor=&start={{(page-1)*20}}&limit=20
+扮猪吃虎::/booktag/list?gender=0&type=hot&tags=扮猪吃虎&minor=&start={{(page-1)*20}}&limit=20
+直播::/booktag/list?gender=0&type=hot&tags=直播&minor=&start={{(page-1)*20}}&limit=20
+洪荒::/booktag/list?gender=0&type=hot&tags=洪荒&minor=&start={{(page-1)*20}}&limit=20
+西游::/booktag/list?gender=0&type=hot&tags=西游&minor=&start={{(page-1)*20}}&limit=20
+荒岛::/booktag/list?gender=0&type=hot&tags=荒岛&minor=&start={{(page-1)*20}}&limit=20
+大唐::/booktag/list?gender=0&type=hot&tags=大唐&minor=&start={{(page-1)*20}}&limit=20
+开局::/booktag/list?gender=0&type=hot&tags=开局&minor=&start={{(page-1)*20}}&limit=20
+三国::/booktag/list?gender=0&type=hot&tags=三国&minor=&start={{(page-1)*20}}&limit=20
+鉴宝::/booktag/list?gender=0&type=hot&tags=鉴宝&minor=&start={{(page-1)*20}}&limit=20
+谋权::/booktag/list?gender=0&type=hot&tags=谋权&minor=&start={{(page-1)*20}}&limit=20
+电竞::/booktag/list?gender=0&type=hot&tags=电竞&minor=&start={{(page-1)*20}}&limit=20
+绝地求生::/booktag/list?gender=0&type=hot&tags=绝地求生&minor=&start={{(page-1)*20}}&limit=20
+废材逆袭::/booktag/list?gender=0&type=hot&tags=废材逆袭&minor=&start={{(page-1)*20}}&limit=20
+特殊技能::/booktag/list?gender=0&type=hot&tags=特殊技能&minor=&start={{(page-1)*20}}&limit=20
+空间::/booktag/list?gender=0&type=hot&tags=空间&minor=&start={{(page-1)*20}}&limit=20
+金手指::/booktag/list?gender=0&type=hot&tags=金手指&minor=&start={{(page-1)*20}}&limit=20
+王者荣耀::/booktag/list?gender=0&type=hot&tags=王者荣耀&minor=&start={{(page-1)*20}}&limit=20
+贴身::/booktag/list?gender=0&type=hot&tags=贴身&minor=&start={{(page-1)*20}}&limit=20
+升级流::/booktag/list?gender=0&type=hot&tags=升级流&minor=&start={{(page-1)*20}}&limit=20
+无敌流::/booktag/list?gender=0&type=hot&tags=无敌流&minor=&start={{(page-1)*20}}&limit=20
+技术流::/booktag/list?gender=0&type=hot&tags=技术流&minor=&start={{(page-1)*20}}&limit=20
+凡人流::/booktag/list?gender=0&type=hot&tags=凡人流&minor=&start={{(page-1)*20}}&limit=20
+练功流::/booktag/list?gender=0&type=hot&tags=练功流&minor=&start={{(page-1)*20}}&limit=20
+异兽流::/booktag/list?gender=0&type=hot&tags=异兽流&minor=&start={{(page-1)*20}}&limit=20
+天才流::/booktag/list?gender=0&type=hot&tags=天才流&minor=&start={{(page-1)*20}}&limit=20
+学院流::/booktag/list?gender=0&type=hot&tags=学院流&minor=&start={{(page-1)*20}}&limit=20
+系统流::/booktag/list?gender=0&type=hot&tags=系统流&minor=&start={{(page-1)*20}}&limit=20
+♀类别::
+古代言情::/category/list?gender=famale&type=hot&major=古代言情&minor=&start={{(page-1)*20}}&limit=20
+现代言情::/category/list?gender=famale&type=hot&major=现代言情&minor=&start={{(page-1)*20}}&limit=20
+青春校园::/category/list?gender=famale&type=hot&major=青春校园&minor=&start={{(page-1)*20}}&limit=20
+耽美::/category/list?gender=famale&type=hot&major=耽美&minor=&start={{(page-1)*20}}&limit=20
+玄幻奇幻::/category/list?gender=famale&type=hot&major=玄幻奇幻&minor=&start={{(page-1)*20}}&limit=20
+武侠仙侠::/category/list?gender=famale&type=hot&major=武侠仙侠&minor=&start={{(page-1)*20}}&limit=20
+科幻::/category/list?gender=famale&type=hot&major=科幻&minor=&start={{(page-1)*20}}&limit=20
+游戏竞技::/category/list?gender=famale&type=hot&major=游戏竞技&minor=&start={{(page-1)*20}}&limit=20
+悬疑灵异::/category/list?gender=famale&type=hot&major=悬疑灵异&minor=&start={{(page-1)*20}}&limit=20
+同人::/category/list?gender=famale&type=hot&major=同人&minor=&start={{(page-1)*20}}&limit=20
+女尊::/category/list?gender=famale&type=hot&major=女尊&minor=&start={{(page-1)*20}}&limit=20
+莉莉::/category/list?gender=famale&type=hot&major=莉莉&minor=&start={{(page-1)*20}}&limit=20
+其他::/category/list?gender=famale&type=hot&major=其他&minor=&start={{(page-1)*20}}&limit=20
+♀人设::
+总裁::booktag/list?gender=1&type=hot&tags=总裁&start={{(page-1)*20}}&limit=20
+王妃::booktag/list?gender=1&type=hot&tags=王菲&start={{(page-1)*20}}&limit=20
+嫡女::booktag/list?gender=1&type=hot&tags=嫡女&start={{(page-1)*20}}&limit=20
+神医::booktag/list?gender=1&type=hot&tags=神医u&start={{(page-1)*20}}&limit=20
+女强::booktag/list?gender=1&type=hot&tags=女强&start={{(page-1)*20}}&limit=20
+女配::booktag/list?gender=1&type=hot&tags=女配&start={{(page-1)*20}}&limit=20
+萌宝::booktag/list?gender=1&type=hot&tags=萌宝&start={{(page-1)*20}}&limit=20
+农女::booktag/list?gender=1&type=hot&tags=农女&start={{(page-1)*20}}&limit=20
+皇后::booktag/list?gender=1&type=hot&tags=皇后&start={{(page-1)*20}}&limit=20
+白领::booktag/list?gender=1&type=hot&tags=白领&start={{(page-1)*20}}&limit=20
+庶女::booktag/list?gender=1&type=hot&tags=庶女&start={{(page-1)*20}}&limit=20
+明星::booktag/list?gender=1&type=hot&tags=明星&start={{(page-1)*20}}&limit=20
+王爷::booktag/list?gender=1&type=hot&tags=王爷&start={{(page-1)*20}}&limit=20
+特工::booktag/list?gender=1&type=hot&tags=特工&start={{(page-1)*20}}&limit=20
+前妻::booktag/list?gender=1&type=hot&tags=前妻&start={{(page-1)*20}}&limit=20
+首席::booktag/list?gender=1&type=hot&tags=首席&start={{(page-1)*20}}&limit=20
+弃妇::booktag/list?gender=1&type=hot&tags=弃妇&start={{(page-1)*20}}&limit=20
+商女::booktag/list?gender=1&type=hot&tags=商女&start={{(page-1)*20}}&limit=20
+设计师::booktag/list?gender=1&type=hot&tags=设计师&start={{(page-1)*20}}&limit=20
+学霸::booktag/list?gender=1&type=hot&tags=学霸&start={{(page-1)*20}}&limit=20
+养女::booktag/list?gender=1&type=hot&tags=养女&start={{(page-1)*20}}&limit=20
+灰姑娘::booktag/list?gender=1&type=hot&tags=灰姑娘&start={{(page-1)*20}}&limit=20
+腹黑::booktag/list?gender=1&type=hot&tags=腹黑&start={{(page-1)*20}}&limit=20
+♀情感::
+耽美::booktag/list?gender=1&type=hot&tags=耽美&start={{(page-1)*20}}&limit=20
+纯爱::booktag/list?gender=1&type=hot&tags=纯爱&start={{(page-1)*20}}&limit=20
+专情::booktag/list?gender=1&type=hot&tags=专情&start={{(page-1)*20}}&limit=20
+言情::booktag/list?gender=1&type=hot&tags=言情&start={{(page-1)*20}}&limit=20
+现言::booktag/list?gender=1&type=hot&tags=现言&start={{(page-1)*20}}&limit=20
+古言::booktag/list?gender=1&type=hot&tags=古言&start={{(page-1)*20}}&limit=20
+搞笑::booktag/list?gender=1&type=hot&tags=搞笑&start={{(page-1)*20}}&limit=20
+青春::booktag/list?gender=1&type=hot&tags=青春&start={{(page-1)*20}}&limit=20
+爽文::booktag/list?gender=1&type=hot&tags=爽文&start={{(page-1)*20}}&limit=20
+虐文::booktag/list?gender=1&type=hot&tags=虐文&start={{(page-1)*20}}&limit=20
+百合::booktag/list?gender=1&type=hot&tags=百合&start={{(page-1)*20}}&limit=20
+情有独钟::booktag/list?gender=1&type=hot&tags=情有独钟&start={{(page-1)*20}}&limit=20
+欢喜冤家::booktag/list?gender=1&type=hot&tags=欢喜冤家&start={{(page-1)*20}}&limit=20
+浪漫情缘::booktag/list?gender=1&type=hot&tags=浪漫情缘&start={{(page-1)*20}}&limit=20
+青梅竹马::booktag/list?gender=1&type=hot&tags=青梅竹马&start={{(page-1)*20}}&limit=20
+破镜重圆::booktag/list?gender=1&type=hot&tags=破镜重圆&start={{(page-1)*20}}&limit=20
+♀时空::
+都市::booktag/list?gender=1&type=hot&tags=都市&start={{(page-1)*20}}&limit=20
+古代::booktag/list?gender=1&type=hot&tags=古代&start={{(page-1)*20}}&limit=20
+科幻::booktag/list?gender=1&type=hot&tags=科幻&start={{(page-1)*20}}&limit=20
+架空::booktag/list?gender=1&type=hot&tags=架空&start={{(page-1)*20}}&limit=20
+重生::booktag/list?gender=1&type=hot&tags=重生&start={{(page-1)*20}}&limit=20
+未来::booktag/list?gender=1&type=hot&tags=未来&start={{(page-1)*20}}&limit=20
+穿越::booktag/list?gender=1&type=hot&tags=穿越&start={{(page-1)*20}}&limit=20
+历史::booktag/list?gender=1&type=hot&tags=历史&start={{(page-1)*20}}&limit=20
+快穿::booktag/list?gender=1&type=hot&tags=快穿&start={{(page-1)*20}}&limit=20
+末世::booktag/list?gender=1&type=hot&tags=末世&start={{(page-1)*20}}&limit=20
+位面::booktag/list?gender=1&type=hot&tags=位面&start={{(page-1)*20}}&limit=20
+无限::booktag/list?gender=1&type=hot&tags=无限&start={{(page-1)*20}}&limit=20
+♀剧情::
+变身::booktag/list?gender=1&type=hot&tags=变身&start={{(page-1)*20}}&limit=20
+百合::booktag/list?gender=1&type=hot&tags=百合&start={{(page-1)*20}}&limit=20
+悬疑::booktag/list?gender=1&type=hot&tags=悬疑&start={{(page-1)*20}}&limit=20
+系统::booktag/list?gender=1&type=hot&tags=系统&start={{(page-1)*20}}&limit=20
+网游::booktag/list?gender=1&type=hot&tags=网游&start={{(page-1)*20}}&limit=20
+推理::booktag/list?gender=1&type=hot&tags=推理&start={{(page-1)*20}}&limit=20
+穿越::booktag/list?gender=1&type=hot&tags=穿越&start={{(page-1)*20}}&limit=20
+职场::booktag/list?gender=1&type=hot&tags=职场&start={{(page-1)*20}}&limit=20
+团宠::booktag/list?gender=1&type=hot&tags=团宠&start={{(page-1)*20}}&limit=20
+逗比::booktag/list?gender=1&type=hot&tags=逗比&start={{(page-1)*20}}&limit=20
+宫斗宅斗::booktag/list?gender=1&type=hot&tags=宫斗宅斗&start={{(page-1)*20}}&limit=20
+女强女尊::booktag/list?gender=1&type=hot&tags=女强女尊&start={{(page-1)*20}}&limit=20
+虐渣打脸::booktag/list?gender=1&type=hot&tags=虐渣打脸&start={{(page-1)*20}}&limit=20
+斗智斗勇::booktag/list?gender=1&type=hot&tags=斗智斗勇&start={{(page-1)*20}}&limit=20
+麻雀变凤凰::booktag/list?gender=1&type=hot&tags=麻雀变凤凰&start={{(page-1)*20}}&limit=20
+契约::booktag/list?gender=1&type=hot&tags=契约&start={{(page-1)*20}}&limit=20
+总裁::booktag/list?gender=1&type=hot&tags=总裁&start={{(page-1)*20}}&limit=20
+婚恋::booktag/list?gender=1&type=hot&tags=婚恋&start={{(page-1)*20}}&limit=20
+虐恋::booktag/list?gender=1&type=hot&tags=虐恋&start={{(page-1)*20}}&limit=20
+豪门::booktag/list?gender=1&type=hot&tags=豪门&start={{(page-1)*20}}&limit=20
+替身::booktag/list?gender=1&type=hot&tags=替身&start={{(page-1)*20}}&limit=20
+甜宠文::booktag/list?gender=1&type=hot&tags=甜宠文&start={{(page-1)*20}}&limit=20
+年代文::booktag/list?gender=1&type=hot&tags=年代文&start={{(page-1)*20}}&limit=20
+种田文::booktag/list?gender=1&type=hot&tags=种田文&start={{(page-1)*20}}&limit=20
+轻小说::booktag/list?gender=1&type=hot&tags=轻小说&start={{(page-1)*20}}&limit=20",
+  "ruleIntroduce": "$.longIntro",
+  "ruleSearchAuthor": "$.author",
+  "ruleSearchCoverUrl": "$.cover",
+  "ruleSearchIntroduce": "$.shortIntro",
+  "ruleSearchKind": "$.tags",
+  "ruleSearchLastChapter": "$._id<js>java.ajax('https://api.wnreader.com/intro/'+result)</js>$.lastChapter",
+  "ruleSearchList": "$.books[*]",
+  "ruleSearchName": "$.title",
+  "ruleSearchNoteUrl": "https://api.wnreader.com/intro/{$._id}",
+  "ruleSearchUrl": "/search/book?query=searchKey",
+  "serialNumber": 0,
+  "weight": 0
+}
